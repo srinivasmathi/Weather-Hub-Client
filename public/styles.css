@@ -98,13 +98,16 @@ hr{
 
 .forecast-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     gap: 20px;
 }
 
 @media (max-width:600px) {
     .forecast-container{
-        grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    }
+    .highlights-container{
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
     }
 }
 
@@ -146,11 +149,11 @@ hr{
     grid-template-rows: 1.5fr 0.5fr;
     gap: 10px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 2vw;
   }
 
 .weather-card-container{
-    margin: 0 5vw;
+    margin: 0 4vw;
 }
 
 .current-weather > *{
