@@ -114,7 +114,7 @@ hr{
 .form input{
     width: 50vw;
     height: 50px;
-    min-width: 200px;
+    min-width: 300px;
     font-family: inherit;
     font-size: 1rem;
     padding-left: 10px;
@@ -149,7 +149,7 @@ hr{
     grid-template-rows: 1.5fr 0.5fr;
     gap: 10px;
     margin: 0 auto;
-    padding: 0 2vw;
+    padding: 2vh 2vw;
   }
 
 .weather-card-container{
