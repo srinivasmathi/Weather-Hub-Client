@@ -7,7 +7,7 @@ export default function CurrentWeather({data}){
       <p className="cityName" >{data.cityName}</p>
       <img className="cur-weather-img" src={data.iconURL} alt="weather icon" />
       <p className="cur-time">{data.datetime}</p>
-      <p class="weather-description">{data.description}</p>
+      <p className="weather-description">{data.description}</p>
     </div>
     );
 }

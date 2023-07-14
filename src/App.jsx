@@ -1,6 +1,7 @@
 import React,{useState,useEffect } from "react";
-import Forecast from "./Forecast";
+
 import LoadingPage from "./LoadingPage";
+import Forecast from "./Forecast";
 import Modal from "./Modal"
 import Form from "./Form"
 import CurrentWeather from "./CurrentWeather";
@@ -36,7 +37,7 @@ function App() {
     const fetchData = async () => {
       try{
         setIsLoading(true);
-        const response  = await fetch("http://localhost:4000/"+cityname);
+        const response  = await fetch(process.env.REACT_APP_BASE_URL + cityname);
         const json = await response.json();
         if(response.status != 200){
           throw "data not fetched";
