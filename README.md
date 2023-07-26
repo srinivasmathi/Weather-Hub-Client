@@ -3,18 +3,20 @@ the front end of the Weather-Hub
 
 Tech Stack :
 
--> Front-end rendering using React Js
+* Front-end rendering using React Js
 
--> Fetch data from Weather Hub's backend using react UseEffects Hook and Fetch( ) method.
+* Fetch data from Weather Hub's backend using react UseEffects Hook and Fetch( ) method.
 
--> State management using React UseState hooks.
+* State management using React UseState hooks.
 
--> Used CSS Flex and Grid for the responsiveness of the app.
+* Used CSS Flex and Grid for the responsiveness of the app.
 
-client hosted on onrender.com: https://srinivasmathi-weather-hub.onrender.com/
+<br />
 
+client hosted on onrender.com: https://srinivasmathi-weather-hub.onrender.com/ <br />
 backend Rep: https://github.com/srinivasmathi/Weather-Hub-Server/
 
+<br />
 
 Rainy Area : 
 
